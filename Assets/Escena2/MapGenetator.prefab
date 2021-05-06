@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3594896782684807348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3594896782684807346}
+  - component: {fileID: 3594896782684807349}
+  m_Layer: 0
+  m_Name: MapGenetator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3594896782684807346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3594896782684807348}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3594896782684807349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3594896782684807348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 099cdc6218db03142a2a16f732a99986, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabPiso: {fileID: 142788314374753147, guid: 7aa2bf45358b3a64c8a2acaa337204ce,
+    type: 3}
+  prefabPared: {fileID: 1579298938366038013, guid: f426ebe724824734b81ebc83d54fbce2,
+    type: 3}
+  prefabParedLimite: {fileID: 4744638944760994771, guid: dd142043ba3caca4a8ea3ef138c77060,
+    type: 3}
+  prefabLuz: {fileID: 5704509681562906850, guid: a75b8c75a4d8eb844bf4ef4800799b26,
+    type: 3}
+  Jugador1: {fileID: 4904818296057230719, guid: 69ba148534e4eb6488d9ba9ab57d2b52,
+    type: 3}
+  Jugador2: {fileID: 8346415134561346951, guid: d0809784c64ffa54b828747bf3ee56e7,
+    type: 3}
+  bandera: {fileID: 8500584789232391234, guid: 39783caef288aef40b231759235d44a6, type: 3}
+  ancho: 6
+  profundidad: 4
+  alturaPared: 0
+  probabilidades: 5000000014000000
